@@ -3,11 +3,11 @@ import path from 'path';
 
 module.exports = {
   development: {
-    client: 'pg',
+    client: 'mysql2',
     connection: {
-      database: 'my_db',
-      user:     'postgres',
-      password: 'postgres'
+      database: 'apitest',
+      user:     'userapi',
+      password: 'senha123'
     },
     pool: {
       min: 2,
